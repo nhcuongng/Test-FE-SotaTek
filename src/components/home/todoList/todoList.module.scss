@@ -1,0 +1,50 @@
+.list {
+  list-style: none;
+  padding: 0px;
+  margin-top: 30px;
+  width: 100%;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    cursor: pointer;
+    width: 100%;
+
+  }
+
+  .actions {
+    button {
+      &:first-child {
+        background-color: #01B4CE;
+        margin-right: 5px;
+      }
+    }
+
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  .item {
+
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.btnDelete {
+  background-color: #D44946;
+}
+
+.bulkAction {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  align-items: center;
+}
+
+

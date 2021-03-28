@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 768px;
+  padding: 10px;
+  align-items: center;
+
+  > * {
+    margin: 10px;
+  }
+
+  > input, textarea {
+    width: 100%;
+  }
+
+  .col6 {
+    width: calc(50% - 20px);
+  }
+
+  .col12 {
+    width: 100%;
+  }
+
+  button[type=submit] {
+    width: 100%;
+    background-color: #52AF52;
+    border: none;
+    padding: 5px 20px;
+  }
+
+  .inputTitle {
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+
+}
+
+.title {
+  text-align:  center;
+}

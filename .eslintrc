@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb-typescript"],
+  "plugins": ["simple-import-sort", "import", "eslint-plugin-import-order-alphabetical"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "no-console": "off",
+    "react/prop-types": "off",
+    "no-underscore-dangle": "off",
+    "class-methods-use-this": "off",
+    "max-classes-per-file": "off",
+    "react/jsx-props-no-spreading": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import-order-alphabetical/order": "error",
+    "no-unused-expressions": "off"
+  }
+}
